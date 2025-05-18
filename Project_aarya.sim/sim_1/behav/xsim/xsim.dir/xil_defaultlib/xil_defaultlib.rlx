@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/abs7346/Desktop/Project_aarya/Project_aarya.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/abs7346/Desktop/Project_aarya/Project_aarya.srcs/sim_1/new/testbench.v,1745880828,verilog,,,,testbench,,,,,,,,
+C:/Users/abs7346/Desktop/Project_aarya/Project_aarya.srcs/sources_1/new/DataPath.v,1746198737,verilog,,C:/Users/abs7346/Desktop/Project_aarya/Project_aarya.srcs/sim_1/new/testbench.v,,ALU;ALU_Mux;Control_Unit;DataMemory;DataPath;EXE_MEM_Pipeline;ForwardingUnit;ID_EXE_Pipeline;IFID_PipelineRegister;Immediate_Extender;InstructionMemory;MEM_WB_Pipeline;PCAdder;ProgramCounter;Register_File;Regrt_MUX;WB_Mux,,,,,,,,

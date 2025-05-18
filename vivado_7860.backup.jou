@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri May  2 11:02:36 2025
+# Process ID: 7860
+# Current directory: C:/Users/abs7346/Desktop/Project_aarya
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13252 C:\Users\abs7346\Desktop\Project_aarya\Project_aarya.xpr
+# Log file: C:/Users/abs7346/Desktop/Project_aarya/vivado.log
+# Journal file: C:/Users/abs7346/Desktop/Project_aarya\vivado.jou
+# Running On        :E5-CSE-136-10
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i7-14700
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:20
+# CPU Logical cores :28
+# Host memory       :34031 MB
+# Swap memory       :5100 MB
+# Total Virtual     :39131 MB
+# Available Virtual :33625 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/abs7346/Desktop/Project_aarya/Project_aarya.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+launch_simulation
+source testbench.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 14
+wait_on_run impl_1
+close_sim

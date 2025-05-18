@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Apr 28 16:51:34 2025
+# Process ID: 10400
+# Current directory: C:/Users/abs7346/Desktop/Project_aarya
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8156 C:\Users\abs7346\Desktop\Project_aarya\Project_aarya.xpr
+# Log file: C:/Users/abs7346/Desktop/Project_aarya/vivado.log
+# Journal file: C:/Users/abs7346/Desktop/Project_aarya\vivado.jou
+# Running On        :E5-CSE-136-10
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i7-14700
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:20
+# CPU Logical cores :28
+# Host memory       :34031 MB
+# Swap memory       :5100 MB
+# Total Virtual     :39131 MB
+# Available Virtual :29345 MB
+#-----------------------------------------------------------
+sstart_guioopen_project C:/Users/abs7346/Desktop/Project_aarya/Project_aarya.xpruupdate_compile_order -fileset sources_1launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+launch_simulation
+source testbench.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 5}
+add_wave {{/testbench/dp/alu_mux}} 
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
